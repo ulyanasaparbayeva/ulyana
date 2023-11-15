@@ -64,7 +64,7 @@ const AboutMe  = () => {
           <div className="flex gap-2.5 pt-6">
             <button className="bg-primary p-2 text-secondary hover:bg-white hover:animate-pulse  contact-btn hover:rounded-2xl "
                     >
-              <Link to="CV .pdf" target="_blank">
+              <Link to="cv.pdf" target="_blank">
                 Download Sv
               </Link>
             </button>
