@@ -17,7 +17,8 @@ const AboutMe  = () => {
     <div className={'container'}>
       <div className="grid md:grid-cols-2 gap-2 grid-cols-1">
         <div className="md:hidden flex pt-2">
-          <img src={banner} className="border-primary-2 border-[4px] rounded-full"/>
+          <img src={banner} className="border-primary-2 border-[4px] rounded-
+          full"/>
         </div>
         <div>
           <div className="md:pt-[70px] pt-2"> <span className="md:text-4xl text-1xl">Greetings!  I'm </span>

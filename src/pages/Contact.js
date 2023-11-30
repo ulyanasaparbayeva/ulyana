@@ -1,4 +1,4 @@
-import {FaGithub, FaLinkedin, FaTelegram,} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaTelegram,FaGitlab } from 'react-icons/fa';
 import {AiFillMail} from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
@@ -31,6 +31,12 @@ const  Contact = () =>{
         <Link to="mailto:ulyanasaparbayeva@gmail.com" target="_blank">
           <AiFillMail className="text-center m-auto w-[40px] h-[40px]"/>
           <div>ulyanasaparbayeva@gmail.com</div>
+        </Link>
+      </div>
+      <div className="box-shadow p-4 rounded-3xl text-center h-[200px] md: mb-0 mb-4">
+        <Link to="https://gitlab.com/ulyanasaparbayeva" target="_blank">
+          <FaGitlab     className="text-center text-orange-700 m-auto w-[40px] h-[40px]"/>
+          <div>ulyanasaparbayeva</div>
         </Link>
       </div>
     </div>
